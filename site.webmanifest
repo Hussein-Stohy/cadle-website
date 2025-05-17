@@ -1,4 +1,5 @@
 {
+<<<<<<< HEAD
   "name": "شركة كاديل",
   "short_name": "كاديل",
   "description": "شركة رائدة في مجال المقاولات وصناعة الأدوات الكهربائية البلاستيكية",
@@ -68,3 +69,77 @@
   "lang": "ar",
   "prefer_related_applications": false
 }
+=======
+    "name": "شركة كاديل",
+    "short_name": "كاديل",
+    "description": "شركة رائدة في مجال المقاولات الكهربائية وصناعة الأدوات الكهربائية البلاستيكية",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#1e40af",
+    "orientation": "portrait",
+    "icons": [
+        {
+            "src": "/images/android-chrome-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "any maskable"
+        },
+        {
+            "src": "/images/android-chrome-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png",
+            "purpose": "any maskable"
+        }
+    ],
+    "shortcuts": [
+        {
+            "name": "منتجاتنا",
+            "short_name": "المنتجات",
+            "description": "تصفح منتجاتنا",
+            "url": "/#products",
+            "icons": [
+                {
+                    "src": "/images/product-icon.png",
+                    "sizes": "192x192"
+                }
+            ]
+        },
+        {
+            "name": "اتصل بنا",
+            "short_name": "اتصل",
+            "description": "تواصل معنا",
+            "url": "/#contact",
+            "icons": [
+                {
+                    "src": "/images/contact-icon.png",
+                    "sizes": "192x192"
+                }
+            ]
+        }
+    ],
+    "screenshots": [
+        {
+            "src": "/images/screenshot1.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "الصفحة الرئيسية"
+        },
+        {
+            "src": "/images/screenshot2.png",
+            "sizes": "1280x720",
+            "type": "image/png",
+            "platform": "wide",
+            "label": "منتجاتنا"
+        }
+    ],
+    "categories": [
+        "business",
+        "utilities"
+    ],
+    "dir": "rtl",
+    "lang": "ar",
+    "prefer_related_applications": false
+}
+>>>>>>> baac2e2499df1ee9aff64b4f02a5b64dcc7c3390

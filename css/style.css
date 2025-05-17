@@ -43,6 +43,7 @@ body {
 
 /* Header Styles */
 header {
+<<<<<<< HEAD
     position: fixed; /* تحديد الهيدر ليكون ثابت في أعلى الصفحة */
     top: 0; /* يظل في الجزء العلوي من الصفحة */
     left: 0;
@@ -53,6 +54,18 @@ header {
     backdrop-filter: blur(5px); /* تأثير الضبابية خلف الهيدر */
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* إضافة ظل للهيدر */
     transition: transform 0.3s ease; /* إذا أردت تأثيرات على التحويل */
+=======
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: var(--header-height);
+    z-index: 50;
+    background-color: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(5px);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform var(--transition-duration) ease;
+>>>>>>> baac2e2499df1ee9aff64b4f02a5b64dcc7c3390
 }
 
 header.scrolled {
@@ -60,7 +73,10 @@ header.scrolled {
     box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> baac2e2499df1ee9aff64b4f02a5b64dcc7c3390
 /* Navigation */
 nav ul {
     display: flex;
@@ -142,7 +158,11 @@ nav ul li a.active::after {
 
 /* Hero Section */
 .hero {
+<<<<<<< HEAD
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('../images/icon.png');
+=======
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('/images/icon.jpg');
+>>>>>>> baac2e2499df1ee9aff64b4f02a5b64dcc7c3390
     background-size: cover;
     background-position: center;
     min-height: 80vh;
@@ -220,7 +240,11 @@ nav ul li a.active::after {
 }
 
 /* Loading Animation */
+<<<<<<< HEAD
 /* .loading {
+=======
+.loading {
+>>>>>>> baac2e2499df1ee9aff64b4f02a5b64dcc7c3390
     position: fixed;
     top: 0;
     left: 0;
@@ -240,6 +264,7 @@ nav ul li a.active::after {
     border-top-color: var(--primary-color);
     border-radius: 50%;
     animation: spin 1s linear infinite;
+<<<<<<< HEAD
 } */
 
 /* @keyframes spin {
@@ -250,6 +275,18 @@ nav ul li a.active::after {
 
 /* Animations */
 /* .animate-fade-in {
+=======
+}
+
+@keyframes spin {
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+/* Animations */
+.animate-fade-in {
+>>>>>>> baac2e2499df1ee9aff64b4f02a5b64dcc7c3390
     animation: fadeIn 0.5s ease-in;
 }
 
@@ -275,7 +312,11 @@ nav ul li a.active::after {
     to {
         opacity: 0;
     }
+<<<<<<< HEAD
 } */
+=======
+}
+>>>>>>> baac2e2499df1ee9aff64b4f02a5b64dcc7c3390
 
 /* Responsive Design */
 @media (max-width: 768px) {
